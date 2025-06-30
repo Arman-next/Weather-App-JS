@@ -39,7 +39,7 @@ const showResult = function (data) {
 
 const searchWeather = async function (city) {
   try {
-    const API_KEY = "3d292d9ccf48ad983c436351da912b61";
+    const API_KEY = ""; // Use your API key here
     const response = await fetch(
       `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}`
     );
